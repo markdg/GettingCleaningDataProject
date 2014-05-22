@@ -21,6 +21,7 @@ The data sources that are used to produce the Tidy data consist of the following
 
 ###Transformations
 The following transformations were performed to produce the Tidy data set output:
+
 1. Read the training and test data measurements from X_train and X_test
 2. Combine X_train and X_test into one data frame
 3. Read the training and test activity codes from y_train and y_test
