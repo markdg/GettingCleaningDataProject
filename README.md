@@ -23,14 +23,14 @@ The subject and activity columns are also added to this new data frame as they w
 ###Step 3
 >"Uses descriptive activity names to name the activities in the data set."
 
-The activity numbers 1 through 6 are converted to their descriptive values as listed in the activity_labels.txt file, and made tidy per the tidy rules of all lower case and no punctuation.
+The activity numbers 1 through 6 are converted to their descriptive values as listed in the activity_labels.txt file, and made tidy per the tidy rules of all lower case and no punctuation. The tidy labels are added to the data set.
 
 ###Step 4
 >"Appropriately labels the data set with descriptive activity names."
 
 All labels for rows and columns are made descriptive and tidy according to the tidy name rules mentioned above.
 Column names are descriptive as provided in the features.txt file and just need to be made tidy. Further details of the meaning of each is in the CodeBook.md file.
-Note that the script identifiese 84 duplicate column names. According to the Community TA on the dicussion forums this is likely due to truncation by the source software. These duplicates are presumably the X, Y, and Z components of the named variables. Although not used in this project, they would need to be resolved if additional processing was required.
+Note that the script identifies 84 duplicate column names. According to the Community TA on the dicussion forums this is likely due to truncation by the source software. These duplicates are presumably the X, Y, and Z components of the named variables. Although not used in this project, they would need to be resolved if additional processing was required.
 
 ###Step 5
 >"Creates a second, independent tidy data set with the average of each variable for each activity and each subject."
