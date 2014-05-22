@@ -97,5 +97,5 @@ for (i in 1:30)
   }
 names(Tidy) <- columnNames[1:86]
 Tidy$subjectactivity <- rowLabels
-write.table(Tidy, file="Tidy.txt")
-## Step 5 Complete - Tidy data set saved as Tidy.txt in working directory ##
+write.table(Tidy, file="tidy.txt")
+## Step 5 Complete - Tidy data set saved as tidy.txt in working directory ##
