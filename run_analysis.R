@@ -95,7 +95,7 @@ for (i in 1:30)
     Tidy <- rbind(Tidy, colMeans(MS[MS$subject==i & MS$activity==activityNames[j],1:86]))
     rowLabels <- append(rowLabels, paste("subject", i, activityNames[j], sep=""))
   }
-names(Tidy) <- columnNames[1:86]
+names(Tidy) <- names(MS)[1:86]
 Tidy$subjectactivity <- rowLabels
 write.table(Tidy, file="tidy.txt")
 ## Step 5 Complete - Tidy data set saved as tidy.txt in working directory ##
