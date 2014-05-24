@@ -9,13 +9,13 @@ Per project requirements, this Code Book describes the variables, data and trans
 The variables names provided in the features.txt file are sufficiently descriptive when taken together with the explanations below. They only need to be made tidy by removing punctuation and making lower case. The resulting variable names follow.
 
 The following variable names are defined as follows:
--First character "t" inidicates time domain measurement, "f" indicates Fourier transform of measurement.
--Body is self explanatory.
--Acceleration is separated into x, y and z directions as indicated by the suffix x, y or z, respectively
--Gravity is in x, y and z directions is separated from body acceleration.
--Jerk is a calculated value from the time derivative of acceleration in each direction.
--Means and standard deviations are the variables extracted from the complete original data set. Averages of the means and standard deviations are computed for the tidy data set output.
--Final column variable is the subject number and subject activity of which there are 180 combinations of subject 1 through 30 performing six activities.
+- First character "t" inidicates time domain measurement, "f" indicates Fourier transform of measurement.
+- Body is self explanatory.
+- Acceleration is separated into x, y and z directions as indicated by the suffix x, y or z, respectively
+- Gravity is in x, y and z directions is separated from body acceleration.
+- Jerk is a calculated value from the time derivative of acceleration in each direction.
+- Means and standard deviations are the variables extracted from the complete original data set. Averages of the means and standard deviations are computed for the tidy data set output.
+- Final column variable is the subject number and subject activity of which there are 180 combinations of subject 1 through 30 performing six activities.
 
 1. tbodyaccmeanx
 2. tbodyaccmeany
