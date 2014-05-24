@@ -44,4 +44,4 @@ Note that the script identifies 84 duplicate column names. According to the Comm
 
 The recommendation by the Community TA in this thread https://class.coursera.org/getdata-003/forum/thread?thread_id=129#comment-773 is that the starting point for step 5 is the mean and standard deviation data set from step 2. So that is what was done.
 
-The averages are calculated for each column of the data set from step 2, tidy names are added, and a column containing the subject and activity for each average is added.
+The averages are calculated for each column of the data set from step 2, tidy names are added, and a column containing the subject and activity for each average is added. The final tidy data set is written using write.table() to the file tidy.txt. It can be read in using read.table() to create a well formatted data frame.
